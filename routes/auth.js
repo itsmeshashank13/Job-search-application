@@ -2,7 +2,7 @@ const express = require(`express`);
 const router = express.Router();
 const User = require(`../models/user`);
 const bcrypt = require(`bcrypt`);
-const jwt = require(`jasonwebtoken`);
+const jwt = require(`jsonwebtoken`);
 
 
 //Register route
